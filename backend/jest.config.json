@@ -1,0 +1,8 @@
+{
+  "testEnvironment": "node",
+  "collectCoverageFrom": ["src/**/*.js"],
+  "coveragePathIgnorePatterns": ["src/config/database.js"],
+  "testMatch": ["**/tests/**/*.test.js"],
+  "setupFiles": ["<rootDir>/tests/setup.js"],
+  "transform": {}
+}
